@@ -1,7 +1,7 @@
 body {
     font-family: Georgia;
     color: black;
-    margin: auto;
+    
 }
 
 .content {
@@ -81,31 +81,33 @@ a {
 /* practicing section */
 
 #practicing {
-    margin-top: 32px;
-    display: flex;
+    margin: 32px auto 32px 24px;
+    display: inline-flex;
     height: min-content;
 }
 .practicing_banner {
-    padding-left: 24px; 
-    float: right;
     width: 60%;
     height: 60%;
 }
 .practicing_banner img {
-    width: 100%;
-    position: relative;
+  width: 100%;  
 }
-.container_items{ 
-    width: 40%;
-    height: auto;   
+.container_items {
+    border-color: rgb(218, 14, 55);
+    width: 40%;;
 }
-.practicing_item {
-    display: inline-flex;
+.box_item {
+    margin: 0 8px 8px 8px; 
+    display: flex;
 }
-.practicing_item img {
+.box_item img {
     width: 35%;
-    height: auto;
 }
+.item_text{
+    width: 65%;
+}
+
+
 
 
 
