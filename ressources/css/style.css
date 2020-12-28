@@ -1,7 +1,6 @@
 body {
     font-family: Georgia;
     color: black;
-    
 }
 
 .content {
@@ -85,36 +84,84 @@ a {
     display: inline-flex;
     height: min-content;
 }
+
 .practicing_banner {
     width: 60%;
     height: 60%;
 }
+
 .practicing_banner img {
-  width: 100%;  
+    width: 100%;
 }
+
 .container_items {
     border-color: rgb(218, 14, 55);
-    width: 40%;;
+    width: 40%;
+    ;
 }
+
 .box_item {
-    margin: 0 8px 8px 8px; 
+    margin: 0 8px 8px 8px;
     display: flex;
 }
+
 .box_item img {
     width: 35%;
 }
-.item_text{
+
+.item_text {
     width: 65%;
 }
 
+/* Learning section */
 
+#learning {
+    background-color: rgba(15, 14, 14, 0.603);
+}
 
+h2 {
+    padding-top: 32px;
+}
 
+.learning_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 32px;
+    margin-right: 72px;
+    margin-left: 72px;
+    margin-bottom: 32px;
+}
 
+.learning_item {
+    background-color: ivory;
+    margin: 16px 16px;
+    width: min-content;
+    height: min-content;
+    height: auto;
+}
 
-
-
-
-
-
+.learning_item img {
+    height: auto;
+}
+/* Thesis section */
+.thesis_container {
+    display: inline-flex;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    margin-right: 0px;
+    width: 100%;
+    
+}
+#video {
+    margin: 0px 24px 24px 24px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.thesis_container .box_item img {
+    width: 35%;
+    margin: 16px 16px;
+}
 
